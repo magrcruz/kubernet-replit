@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo Docker - Frontend</title>
+</head>
+<body>
+    <h1>Formulario de envío de datos</h1>
+    <form action="http://localhost:5000/py" method="post">
+        <!--Ya ustedes lo ven-->
+        <input type="text" id="input" name="input" value="Not working">
+        <textarea type="text" id="code" name="code" rows="6" cols="50">
+        <button id="run" type="submit">run</button>
+
+    </form>
+    <!--Ya la salida la muestra Alan-->
+
+</body>
+</html>
+<!--
+# Este es un ejemplo simple de código en Python
+# que puede ser ejecutado en la aplicación Flask.
+
+# Definir una función que suma dos números
+def sumar(a, b):
+    return a + b
+
+# Llamar a la función e imprimir el resultado
+resultado = sumar(5, 3)
+print("El resultado de la suma es:", resultado)
+
+# Definir una lista de nombres
+nombres = ["Ana", "Juan", "María"]
+
+# Iterar sobre la lista e imprimir cada nombre
+print("Lista de nombres:")
+for nombre in nombres:
+    print(nombre)
+
+-->
